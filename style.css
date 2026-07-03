@@ -1,15 +1,48 @@
-/* ==========================
-   APEC Login Page CSS
-   ========================== */
-
-/* Remove default browser spacing */
+/* Reset */
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
-/* Style the whole page */
+/* Full page */
 body{
-    background:#0A4AA3;
+
+    height:100vh;
+
+    background:linear-gradient(135deg,#0A4AA3,#002E74);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-family:Arial, sans-serif;
+}
+
+/* Main container */
+.container{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+}
+
+/* White login box */
+.login-box{
+
+    width:450px;
+
+    height:620px;
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.25);
 }
